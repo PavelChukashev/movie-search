@@ -7,7 +7,20 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100vw;
+  height: 10vh;
+  background-color: #20232a;
+  color: #61dafb;
+}
+
+.main-container {
+  background-color: #282c34;
+  color: #fff;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
 }
 
 .search {
@@ -15,6 +28,17 @@ header {
   justify-content: center;
   align-items: center;
   margin: 20px;
+}
+
+.search input {
+  width: 30vw;
+  height: 5vh;
+  font-size: 1.5rem;
+  color: #fff;
+  border: none;
+  border-bottom: 3px #61dafb solid;
+  background-color: inherit;
+  outline: none;
 }
 
 .container {
@@ -33,4 +57,17 @@ header {
 .poster {
   height: 300px;
   width: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #20232a;
+}
+
+a {
+  text-decoration: none;
+  color: #61dafb;
 }
